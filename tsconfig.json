@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "es5",
+        "outDir": "build/",
+        "rootDir": "src/",
+        "lib": ["es6"],
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "allowJs": true,
+        "noImplicitAny": true,
+        "resolveJsonModule": true
+    }
+}
