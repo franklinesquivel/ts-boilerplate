@@ -4,7 +4,12 @@ Basic boilerplate project to run Typescript. Transpile your code and the run it!
 
 ## Execute your code
 
-First you must transpile the TS code to a executable version on JS, to do this run this command.
+First you must install all the dependencies to run the project
+```console
+yarn install
+```
+
+Then you have to transpile the TS code to a executable version on JS, to do this run this command.
 ```console
 npm run dev
 ```
@@ -17,6 +22,6 @@ npm run start
 ```
 
 Now you're executing the code in the same modality that the previous command, with `watch` so, every time you change the code of your `src` project it will be
-transpiled (By the first command) and inmediately executed (By the second one).
+transpiled (By the second command) and inmediately executed (By the third one).
 
 ### Happy Coding! :smile:
