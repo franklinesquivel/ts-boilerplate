@@ -2,6 +2,11 @@
 
 Basic boilerplate project to run Typescript. Transpile your code and the run it!
 
+## Set enviroment variables
+
+You have to copy the `env.example` template file and name the copy `.env`, add the respective values to the keys and the enviroment
+variables will be set the next time you run your app.
+
 ## Execute your code
 
 First you must install all the dependencies to run the project
