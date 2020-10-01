@@ -10,6 +10,8 @@ import server from "./server";
 import { __disc_token__, __port__ } from "./constans";
 import bot from "./bot";
 
+console.log('AHHHHHHHHHHHHHHHHHHHHHHHHHHHH');
+
 // Starting Express server on a port defined by enviroment var
 server.listen(__port__, () => 
 	console.log(`Server stated! Listening at http://localhost:${__port__}`)
