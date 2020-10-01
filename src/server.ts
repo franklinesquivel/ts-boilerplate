@@ -2,9 +2,6 @@ import express from "express";
 
 const server = express();
 
-// Express server configuration
-server.get("/", (_, res) => {
-	res.send("Hello World!");
-});
+server.use(express.static(__dirname + '/../public'));
 
 export default server;

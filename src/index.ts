@@ -7,9 +7,12 @@ import { config as dotEnvConfig } from "dotenv";
 dotEnvConfig();
 
 import server from "./server";
-import { __port__ } from "./constans";
+import { __disc_token__, __port__ } from "./constans";
+import bot from "./bot";
 
 // Starting Express server on a port defined by enviroment var
-server.listen(__port__, () =>
+server.listen(__port__, () => 
 	console.log(`Server stated! Listening at http://localhost:${__port__}`)
 );
+
+bot.login(__disc_token__ ?? undefined).catch(err => console.log(err));
